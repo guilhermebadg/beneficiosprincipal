@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+     background-color: black;
+}
+
+.titulobeneficios{
+    text-align: left;
+    margin-left: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.contentbeneficios{
+    display: flex;
+    gap: 15px;
+}
+
+.content{
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    background-color: #f0e3ca;
+    width: 400px;
+    height: 500px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.logobeneficios{
+    width: 70%;
+    margin-top: 15%;
+}
+
+#beneficio{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+    color: orange;
+}
+
+.localogobeneficios{
+    border-radius: 50%;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    background-color: transparent;
+    border: solid 1px rgb(169, 143, 143);
+    width: 100px;
+    height: 100px;
+}
+
+.titulocombo{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 450;
+}
+
+.content:hover{
+    background-color: rgb(240, 121, 36);
+    color: white;
+    transition: 1s;
+}
+
+.titulocombo:hover{
+    color: white;
+}
+
+@media (max-width:800px){
+
+
+    body{
+     background-color: rgb(150, 103, 61);
+    }
+
+    .titulobeneficios{
+        font-size: medium;
+    }
+
+    .contentbeneficios{
+        display: grid;
+        height: 100%;
+        font-size: small;
+    }
+
+    .content{
+        width: 80%;
+        margin-left: 10%;
+        height: 100%;
+    }
+
+    .localogobeneficios{
+        margin-left: 35%;
+    }
+}
